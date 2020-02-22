@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="style3.css">
+    <title>login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="logo">
+        <a href="index1.html"><img src="logo.png" alt="logo" class="logo2" border="0"></a>
+      </div>
+      <div id="nav">
+    		<ul>
+    			<a href="index2.html"><li class="list">Home</li></a>
+    			<li class="vl">|</li>
+    			<a href="index3.html"><li class="list">Sign In</li></a>
+    			<li class="vl">|</li>
+    			<a href="#"><li class="list">Contact</li></a>
+    		</ul>
+    	</div>
+      <div id="image">
+        <img src="map.jpg" alt="map-image" class="map">
+      </div>
+      <div id="login-form">
+        <input
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).on('Click','ul li',function()){
+        $(this).addClass('active').siblings().removeClass('active')
+      }
+    </script>
+    <table>
+    <div id="login-box">
+    <p id="username">Username:</p>
+    <input type="text" name="username">
+    <p id="password">Password:</p>
+    <input type="password" place>
+    </div>
+    </table>
+  </body>
+</html>
